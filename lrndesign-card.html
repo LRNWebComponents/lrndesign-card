@@ -7,15 +7,14 @@
 <link rel="import" href="../paper-styles/color.html">
 <link rel="import" href="../paper-styles/typography.html">
 <link rel="import" href="../paper-toolbar/paper-toolbar.html">
-<link rel="import" href="../hax-editbar/hax-editbar.html">
-<link rel="import" href="../hax-editable/hax-editable.html">
-
+<link rel="import" href="../hax-behaviors/hax-behaviors.html">
 
 <!--
 `lrndesign-card`
 
+A simple card for presenting material.
 
-@demo demo/index.html 
+@demo demo/index.html
 -->
 
 <dom-module id="lrndesign-card">
@@ -92,7 +91,7 @@
     Polymer({
 
       is: 'lrndesign-card',
-
+      behaviors: [HAXBehaviors.EditBehaviors],
       properties: {
         title: {
           type: String,
@@ -107,36 +106,14 @@
         image: {
           type: String,
           value: ''
-        },
-        edit: {
-          type: Boolean,
-          value: false,
-          reflectAttribute: true,
-          readOnly: false,
-          notify: true,
-          observer: '_editChanged'
         }
       },
-      ready: function() {
-        let root = this;
-        this.$$('hax-editbar').addEventListener('action', function(e) {
-          let action = e.detail.action;
-          switch(action) {
-            case 'edit':
-              root.edit = true;
-              break;
-            case 'save':
-              root.edit = false;
-              break;
-            case 'cancel':
-              root.edit = false;
-              break;
-          }
-        });
-      },
-      _editChanged: function(edit) {
-        if (edit === false) {
-        }
+      /**
+       * Defaults for presenting as a demo.
+       */
+      _demoInit: function() {
+        this.title = "Sing 100";
+        this.body = "Disrupt, innovate out of your job. Pay everything forward. Collapse local inefficiencies.";
       }
     });
   </script>

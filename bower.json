@@ -5,7 +5,10 @@
     "polymer": "Polymer/polymer#^1.4.0",
     "paper-card": "PolymerElements/paper-card#^1.1.4",
     "hax-editbar": "LRNWebComponents/hax-editbar",
-    "hax-editable": "LRNWebComponents/hax-editable"
+    "hax-editable": "LRNWebComponents/hax-editable",
+    "lrndesign-avatar": "LRNWebComponents/lrndesign-avatar#^0.0.1",
+    "lrnsys-behaviors": "LRNWebComponents/hax-behaviors#^0.0.1",
+    "hax-behaviors": "LRNWebComponents/hax-behaviors#^0.0.2"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
