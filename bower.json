@@ -18,5 +18,9 @@
     "hax-editable": "LRNWebComponents/hax-editable",
     "hax-editbar": "LRNWebComponents/hax-editbar",
     "lrn-icons": "LRNWebComponents/lrn-icons"
+  },
+  "resolutions": {
+    "hax-editbar": "0.0.9",
+    "lrnsys-behaviors": "^1.0.0"
   }
 }
