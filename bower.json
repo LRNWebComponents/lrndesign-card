@@ -3,7 +3,7 @@
   "main": "lrndesign-card.html",
   "dependencies": {
     "polymer": "Polymer/polymer#^1.4.0",
-    "paper-card": "PolymerElements/paper-card#^1.1.4",
+    "paper-card": "PolymerElements/paper-card#^2.0.0",
     "hax-editbar": "LRNWebComponents/hax-editbar",
     "hax-editable": "LRNWebComponents/hax-editable",
     "lrndesign-avatar": "LRNWebComponents/lrndesign-avatar#^0.0.1",
