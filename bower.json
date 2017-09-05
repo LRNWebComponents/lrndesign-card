@@ -20,7 +20,7 @@
     "lrn-icons": "LRNWebComponents/lrn-icons"
   },
   "resolutions": {
-    "hax-editbar": "0.0.9",
+    "hax-editbar": "0.1.0",
     "lrnsys-behaviors": "^1.0.0"
   }
 }
