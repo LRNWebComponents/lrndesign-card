@@ -7,7 +7,7 @@
     "hax-editbar": "LRNWebComponents/hax-editbar",
     "hax-editable": "LRNWebComponents/hax-editable",
     "lrndesign-avatar": "LRNWebComponents/lrndesign-avatar#^0.0.1",
-    "lrnsys-behaviors": "LRNWebComponents/hax-behaviors#^0.0.1",
+    "lrnsys-behaviors": "LRNWebComponents/lrnsys-behaviors#^1.0.0",
     "hax-behaviors": "LRNWebComponents/hax-behaviors#^0.0.4"
   },
   "devDependencies": {
@@ -18,9 +18,5 @@
     "hax-editable": "LRNWebComponents/hax-editable",
     "hax-editbar": "LRNWebComponents/hax-editbar",
     "lrn-icons": "LRNWebComponents/lrn-icons"
-  },
-  "resolutions": {
-    "hax-editbar": "0.1.0",
-    "lrnsys-behaviors": "^1.0.0"
   }
 }
